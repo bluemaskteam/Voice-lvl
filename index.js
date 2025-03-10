@@ -4,7 +4,7 @@ const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_VOICE_STATES],
   checkUpdate: false,
 });
-const TOKEN = "MTMyNjI4MjM5ODI5OTU4NjYxMQ.G8GGhp.A1RGJvTpJc3g39ykcPvOB_y0wsec5Fx_18uwws";
+const TOKEN = "MTMyNjI4MjM5ODI5OTU4NjYxMQ.G16jB6.GnGx8VYloiVamd8fja97HBU5MgJ46ueEu10fpY";
 const VOICE_CHANNEL_ID = "1312339948774359070";
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
